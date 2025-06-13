@@ -1,0 +1,138 @@
+.body{
+    font-family: 'Georgia', serif;
+    background-image: url('partners and clients.png');
+    background-size: cover;
+    color: #222;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-image: url('partners and clients.png');
+    height: 113vh;
+}
+
+nav {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-color: black;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav .logo img {
+    height: 40px;
+  }
+
+  nav .logo span {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #2a5d2a;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 0.95rem;
+  }
+
+  nav ul li {
+    position: relative;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #222;
+    padding: 8px 4px;
+    display: inline-block;
+  }
+
+  nav ul li a:hover,
+  nav ul li a.active {
+    color: #2a5d2a;
+    border-bottom: 2px solid #2a5d2a;
+  }
+
+  nav ul li .dropdown {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    border-radius: 4px;
+    min-width: 150px;
+    z-index: 1001;
+  }
+
+  nav ul li:hover .dropdown {
+    display: block;
+  }
+
+  nav ul li .dropdown a {
+    display: block;
+    padding: 8px 15px;
+    color: #222;
+  }
+
+  nav ul li .dropdown a:hover {
+    background-color: #e6f0e6;
+    color: #2a5d2a;
+  }
+
+  nav .apply-btn {
+    background-color: #589B1C;
+    color: black;
+    padding: 12px 30px;
+    border-radius: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: background-color 0.3s;
+}
+
+nav .apply-btn:hover {
+    background-color: #7cb342;
+    color: white;
+  }
+
+.partner-img {
+    width: 100%;
+    height: auto;
+    margin-top: 15%;
+    padding-left: 2.5%;
+}  
+
+.mentor{
+    padding-right: 2%;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.buna{
+    padding-left: 2%;
+    padding-bottom: 7%;
+}
+
+.serianu{
+    padding-left: 2%;
+    padding-bottom: 7%;
+}
+
+.BC{
+    padding-left: 2%;
+    padding-bottom: 7%;
+}
