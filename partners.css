@@ -5,7 +5,7 @@
 }
 .body{
     font-family: 'Georgia', serif;
-    background-image: url('partners and clients.png');
+    background-image: url('img/partners and clients.png');
     background-size: cover;
     color: #222;
     min-height: 100vh;
@@ -14,7 +14,7 @@
 }
 
 .header{
-    background-image: url('partners and clients.png');
+    background-image: url('img/partners and clients.png');
     height: 113vh;
 }
 
