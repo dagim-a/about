@@ -27,9 +27,10 @@ nav {
     font-family: Arial, sans-serif;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: sticky;
-    top: 0;
+    top: 18px;
     z-index: 1000;
-    border-color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 nav .logo {
@@ -52,7 +53,7 @@ nav .logo {
     list-style: none;
     display: flex;
     gap: 25px;
-    font-size: 0.95rem;
+    font-size: 1.15rem;
   }
 
   nav ul li {
