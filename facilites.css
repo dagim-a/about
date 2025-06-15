@@ -1,0 +1,178 @@
+.body{
+    font-family: 'Georgia', serif;
+    background-image: url('img/facilites.png');
+    background-size: cover;
+    color: #222;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-image: url('img/facilites.png');
+    height: 155vh;
+}
+
+nav {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-color: black;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav .logo img {
+    height: 40px;
+  }
+
+  nav .logo span {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #2a5d2a;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 0.95rem;
+  }
+
+  nav ul li {
+    position: relative;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #222;
+    padding: 8px 4px;
+    display: inline-block;
+  }
+
+  nav ul li a:hover,
+  nav ul li a.active {
+    color: #2a5d2a;
+    border-bottom: 2px solid #2a5d2a;
+  }
+
+  nav ul li .dropdown {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    border-radius: 4px;
+    min-width: 150px;
+    z-index: 1001;
+  }
+
+  nav ul li:hover .dropdown {
+    display: block;
+  }
+
+  nav ul li .dropdown a {
+    display: block;
+    padding: 8px 15px;
+    color: #222;
+  }
+
+  nav ul li .dropdown a:hover {
+    background-color: #e6f0e6;
+    color: #2a5d2a;
+  }
+
+  nav .apply-btn {
+    background-color: #589B1C;
+    color: black;
+    padding: 12px 30px;
+    border-radius: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: background-color 0.3s;
+}
+
+nav .apply-btn:hover {
+    background-color: #7cb342;
+    color: white;
+  }
+
+ main {
+    flex-grow: 1;
+    padding: 4px 55px 80px;
+    max-width: 90%;
+    margin: 0;
+  }
+
+  main h1 {
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+    background: rgba(255, 255, 255, 0.85);
+    display: inline-block; 
+    padding: 8px 18px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+  }
+ 
+  .info-box {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    padding: 25px 30px;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+  }
+
+  .info-text {
+    color: #222;
+    font-size: 1.9rem;
+    font-style: italic;
+  }
+  
+   .facilities-list {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+  }
+
+  .facilities-list ul {
+    list-style: none;
+    font-size: 1rem;
+    color: #222;
+    max-width: 45%;
+    font-style: italic;
+  }
+
+  .facilities-list ul li {
+    margin-bottom: 45px;
+    position: relative;
+    padding-left: 22px;
+    font-size: xx-large;
+  }
+
+  .facilities-list ul li::before {
+    content: "✓";
+    position: absolute;
+    left: -7%;
+    color: #4caf50;
+    font-weight: bold;
+  }
+
+
